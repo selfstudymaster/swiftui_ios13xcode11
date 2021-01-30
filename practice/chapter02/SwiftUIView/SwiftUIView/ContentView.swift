@@ -10,11 +10,53 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        // Imageビュー
+//        Image("tensai_icon_02")
+        // UIImageからSwiftUIのImageを作成するには、イニシャライザの引数uiImageを使用
+        // Image(uiImage: UIImage(named: "tensai_icon_02")!)
+        
+        // システムアイコンを使用する(SF Symbles)
+        Image(systemName: "circles.hexagongrid.fill")
+            .font(.largeTitle)
+            .foregroundColor(.orange)
+        
+        
+//        // Textビュー
+//        Text(String(repeating: "Hello World ", count: 20))
+//            // 行数の指定
+//            .lineLimit(3)
+//            // 文字列を省略(...)する場所の指定 head middle tail
+//            .truncationMode(.middle)
+//            // 行間の幅の調整
+//            .lineSpacing(50)
+        
+        // Textビューの外観
+//        Text("SwiftUiを学ぶ")
+//            // fontモディファイア
+//            .font(.largeTitle)
+//            // boldモディファイア
+//            .bold()
+//            // italicモディファイア
+//            .italic()
+//            // fontWeightモディファイア
+//            .fontWeight(.regular)
+//            // baselineモディファイア
+//            .baselineOffset(30)
+//            // kerningモディファイア(2文字間の間隔)
+//            .kerning(4)
+//            // trackingモディファイア(文字列全体の文字間隔)
+//            // kerningと同時に指定された場合はtrackingが優先される
+//            .tracking(4)
+//            // underlineモディファイア
+//            .underline(color: Color.red)
+//            // 取り消し線モディファイア
+//            .strikethrough(color: Color.blue)
+//
         // モディファイアの適用順序
         // backgroundを先に指定した場合、後のpaddingで指定した余白は染まらない
-        Text("Hellow SwiftUI!")
-            .background(Color.purple)
-            .padding()
+//        Text("Hellow SwiftUI!")
+//            .background(Color.purple)
+//            .padding()
         
         // paddingを先に指定した場合、後の背景色の余白も染まる
 //        Text("Hellow SwiftUI!")
