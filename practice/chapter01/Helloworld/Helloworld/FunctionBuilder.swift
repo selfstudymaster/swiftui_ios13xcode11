@@ -34,3 +34,9 @@ func abc() -> String {
     return StringBuilder.buildBlock(a, b, c)
 }
 */
+
+struct FunctionBuilder_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}
