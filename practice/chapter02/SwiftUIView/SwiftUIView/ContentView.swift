@@ -16,7 +16,7 @@ struct ContentView: View {
         // Image(uiImage: UIImage(named: "tensai_icon_02")!)
         
         // システムアイコンを使用する(SF Symbles)
-        Image(systemName: "circles.hexagongrid.fill")
+        Image(systemName: "faceid")
             .font(.largeTitle)
             .foregroundColor(.orange)
         
