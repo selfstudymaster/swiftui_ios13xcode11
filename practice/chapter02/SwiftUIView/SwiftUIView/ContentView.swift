@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             Text("SwiftUI").font(.largeTitle).foregroundColor(.primary)
             Text("より優れたAppを、より少ないコードで。").foregroundColor(.secondary)
-            Color(red: 0.0, green: 1.0, blue: 1.0)
+//            Color(red: 0.0, green: 1.0, blue: 1.0)
             // Assets.xcassetsにてNewColorSetから色を登録し呼び出せる
 //            Color("my_primary_color")
 //            Color("my_secondary_color")

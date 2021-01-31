@@ -1,7 +1,7 @@
 import SwiftUI
 fileprivate
 let gradientStop = Gradient(stops: [
-    .init(color: .red, location: 0.0),
+    .init(color: .red, location: 0.0), // locationは左端0.0、右端1.0、上端0.0〜下端1.0
     .init(color: .white, location: 0.3),
     .init(color: .green, location: 1.0)
 ])

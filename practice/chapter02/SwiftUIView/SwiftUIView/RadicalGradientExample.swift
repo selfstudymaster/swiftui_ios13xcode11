@@ -1,12 +1,12 @@
 import SwiftUI
 
-fileprivate
+fileprivate 
 let spectrum = Gradient(colors: [
     .red, .yellow, .green, .blue, .purple, .red
 ])
 
 
-fileprivate
+fileprivate // 同じファイル内ならアクセス可能なアクセス修飾子
 let radial = RadialGradient(gradient: spectrum,
                             center: .center,
                             startRadius:0,
