@@ -10,15 +10,37 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // Imageビュー
+        // Colorビュー
+        VStack {
+            Text("SwiftUI").font(.largeTitle).foregroundColor(.primary)
+            Text("より優れたAppを、より少ないコードで。").foregroundColor(.secondary)
+            Color(red: 0.0, green: 1.0, blue: 1.0)
+            // Assets.xcassetsにてNewColorSetから色を登録し呼び出せる
+//            Color("my_primary_color")
+//            Color("my_secondary_color")
+            
+            // Imageビュー
 //        Image("tensai_icon_02")
         // UIImageからSwiftUIのImageを作成するには、イニシャライザの引数uiImageを使用
         // Image(uiImage: UIImage(named: "tensai_icon_02")!)
         
         // システムアイコンを使用する(SF Symbles)
-        Image(systemName: "faceid")
-            .font(.largeTitle)
-            .foregroundColor(.orange)
+//        Image(systemName: "faceid")
+//            // resizeableとframeでリサイズすると縦横比歪むこともある
+//            .resizable()
+//            // 縦横比を維持しながらいずれかがビューサイズいっぱいにするにはscaledToFill
+//            .scaledToFill()
+//            .frame(width: 300, height: 120)
+            // ビューのサイズで切り取る
+            // .clipped()
+        
+//            // 縦横比を維持しながらビューサイズに収めるにはscaledToFit
+//            .scaledToFit()
+//            .frame(width: 300, height: 120)
+        
+//            // 文字と同じように扱えるので、Textビューのモディファイアで加工
+//            .font(.largeTitle)
+//            .foregroundColor(.orange)
         
         
 //        // Textビュー
@@ -158,11 +180,12 @@ struct ContentView: View {
 //            .fixedSize() // frameより先に指定
 //            .frame(width: 200, height: 20)
     
+        }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+

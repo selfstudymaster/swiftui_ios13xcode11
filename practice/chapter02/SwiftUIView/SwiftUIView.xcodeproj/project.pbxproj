@@ -13,6 +13,10 @@
 		046BB61C25C4EF8E000D6FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046BB61B25C4EF8E000D6FFF /* Assets.xcassets */; };
 		046BB61F25C4EF8E000D6FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046BB61E25C4EF8E000D6FFF /* Preview Assets.xcassets */; };
 		046BB62225C4EF8E000D6FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046BB62025C4EF8E000D6FFF /* LaunchScreen.storyboard */; };
+		04FF532525C6A208002EE980 /* LinearGradientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF532425C6A208002EE980 /* LinearGradientExample.swift */; };
+		04FF532725C6A385002EE980 /* ColorStopGradientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF532625C6A385002EE980 /* ColorStopGradientExample.swift */; };
+		04FF532925C6A442002EE980 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF532825C6A442002EE980 /* SwiftUIView.swift */; };
+		04FF532B25C6A4B0002EE980 /* RadicalGradientExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF532A25C6A4B0002EE980 /* RadicalGradientExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		046BB61E25C4EF8E000D6FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		046BB62125C4EF8E000D6FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046BB62325C4EF8E000D6FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FF532425C6A208002EE980 /* LinearGradientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientExample.swift; sourceTree = "<group>"; };
+		04FF532625C6A385002EE980 /* ColorStopGradientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStopGradientExample.swift; sourceTree = "<group>"; };
+		04FF532825C6A442002EE980 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		04FF532A25C6A4B0002EE980 /* RadicalGradientExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalGradientExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				046BB61525C4EF8D000D6FFF /* AppDelegate.swift */,
 				046BB61725C4EF8D000D6FFF /* SceneDelegate.swift */,
 				046BB61925C4EF8D000D6FFF /* ContentView.swift */,
+				04FF532425C6A208002EE980 /* LinearGradientExample.swift */,
+				04FF532625C6A385002EE980 /* ColorStopGradientExample.swift */,
+				04FF532825C6A442002EE980 /* SwiftUIView.swift */,
+				04FF532A25C6A4B0002EE980 /* RadicalGradientExample.swift */,
 				046BB61B25C4EF8E000D6FFF /* Assets.xcassets */,
 				046BB62025C4EF8E000D6FFF /* LaunchScreen.storyboard */,
 				046BB62325C4EF8E000D6FFF /* Info.plist */,
@@ -148,6 +160,10 @@
 			files = (
 				046BB61625C4EF8D000D6FFF /* AppDelegate.swift in Sources */,
 				046BB61825C4EF8D000D6FFF /* SceneDelegate.swift in Sources */,
+				04FF532B25C6A4B0002EE980 /* RadicalGradientExample.swift in Sources */,
+				04FF532925C6A442002EE980 /* SwiftUIView.swift in Sources */,
+				04FF532525C6A208002EE980 /* LinearGradientExample.swift in Sources */,
+				04FF532725C6A385002EE980 /* ColorStopGradientExample.swift in Sources */,
 				046BB61A25C4EF8D000D6FFF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
